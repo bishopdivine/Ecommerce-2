@@ -1,0 +1,51 @@
+.main{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 20px;
+    padding: 20px 10px 0 30px;
+}
+.img1,
+.writeup{
+    display: inline-block;
+}
+.writeup{
+    margin-left: 2.9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.but1,
+.but2,
+.but3,
+.but4{
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+.but1:hover,
+.but2:hover,
+.but3:hover,
+.but4:hover,
+.but1:active,
+.but2:active,
+.but3:active,
+.but4:active{
+    border:1px black;
+}
+.but1{
+    background-color: red;
+}
+.but2{
+    background-color: blue;
+}
+.but3{
+    background-color: green;
+}
+.but4{
+    background-color: aqua;
+}
+.buttoncolor p{
+    display: inline-block;
+    margin-right: 5px;
+}

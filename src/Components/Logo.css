@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+    text-decoration: none;
+}
+.logo{
+   color: aqua;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 15px;
+}
+.FaHeadphones{
+    padding-left: 5px;
+    background-color: aqua;
+    color: black;
+    width: 1.3rem;
+    padding: 2px; 
+    position: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+.nav-bar{
+    text-decoration: none;
+}
+.logo,
+.FaHeadphones{
+    display: inline-block;
+    position: left;
+    margin: 4px;
+}
+.header-page{
+    position: left;
+    border: 1.5px;
+    border-color: black;
+    width: 12rem;
+    background-color: white;
+    height: 100%;
+    margin: 20px;
+    padding: 15px;
+    color: black;
+}
+.nav-list{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.nav-list li{
+    margin-bottom: 14px;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    color: black;
+    width: 1.3rem;
+    padding: 2px;
+    display: inline-block;
+    margin: 10px;
+}
