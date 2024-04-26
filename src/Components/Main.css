@@ -1,5 +1,5 @@
 .main{
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 20px;
     box-shadow: 20px;
     padding: 20px 10px 0 30px;
@@ -48,4 +48,7 @@
 .buttoncolor p{
     display: inline-block;
     margin-right: 5px;
+}
+.display{
+    display: inline-block;
 }

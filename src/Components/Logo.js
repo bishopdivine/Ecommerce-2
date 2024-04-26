@@ -10,7 +10,7 @@ class Logo extends Component {
         super(props);
 
         this.state = {
-            messagee: "Soundix"
+            message: "Soundix."
 
         };
     }
@@ -20,15 +20,17 @@ class Logo extends Component {
         return(
             <div className='header-page'>
                 <div>
-                   <div className="logo">
+                   <div className="inline-flex m-1.5">
                         <div className="FaHeadphones"> 
                             <FaHeadphones /> 
                         </div>
-                        {this.state.messagee}
+                        <div className="inline-flex text-bold blue-600 mx-1.5 ">
+                           {this.state.message} 
+                        </div>
                     </div> 
                 </div>
                 
-                <nav className="nav-bar">
+                <nav className="nav-bar inline-flex">
                     <ul className="nav-list">
                         <li>
                             <Link to="/">

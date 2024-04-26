@@ -1,16 +1,15 @@
 .topside{
-    background-color: white;
-    display: inline-block;
     color: black;
-    margin: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
 .searchbar{
-    display: inline-block;
     font: 20px;
-    
-
+    margin-left: 15rem;
 }
 .write-up{
     display: inline-block;
+    margin-right: 17rem;
 } 
+.display{
+    display: inline-block;
+}
